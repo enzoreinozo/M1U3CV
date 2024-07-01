@@ -1,0 +1,21 @@
+body{
+    background-color: beige;
+}
+.img {
+    width: 400px;
+    margin: center;
+}
+
+.series{
+    color:red;
+    background-color: skyblue;
+}
+
+.movies{
+    color: yellow;
+    background-color: green;
+}
+
+.resumen{
+    background-color: palegoldenrod;
+}

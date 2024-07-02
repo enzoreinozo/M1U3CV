@@ -1,21 +1,16 @@
-body{
-    background-color: beige;
-}
+
 .img {
-    width: 400px;
-    margin: center;
+    width: 150px;
+    border-radius: 50%;
 }
 
-.series{
-    color:red;
-    background-color: skyblue;
+.series, .movies{
+    font-family: sans-serif;
+    color: red;
+    font-size: 20px;
 }
 
-.movies{
-    color: yellow;
-    background-color: green;
-}
-
-.resumen{
-    background-color: palegoldenrod;
+.s-1, .m-1{
+    color: green;
+    font-size: 20px;
 }

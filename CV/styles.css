@@ -1,5 +1,5 @@
 .card_img{
-    background: greenyellow;
+    background: #b0f2c2;
     text-align: center;
     width: 300px;
     margin: auto;
@@ -7,7 +7,6 @@
     padding: 20px 10px;
     box-shadow: 0px 0px 30px #0006;
     border-radius: 8px;
-    position: center;
 }
 
 .edad{
@@ -15,32 +14,33 @@
     margin-right: 49%;
 }
 
-
 .img{
     width: 200px;
     border-radius: 10%;
 }
 
 .red-card{
-    background-color: rgb(245, 77, 23);
+    background-color: #c7f6d4;
     width: 300px;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     box-shadow: 0px 0px 30px #0006;
     border-radius: 8px;
-    position: left;
+    display: inline-block;
+    margin-left: 26%;
 }
 
 .blue-card{
-    background-color: rgb(23, 208, 245);
+    background-color: #ededaf;
     width: 300px;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     box-shadow: 0px 0px 30px #0006;
     border-radius: 8px;
-    position: right;
+    display: inline-block;
+    margin: 50px;
 }
 
 .series-card, .movie-card{
@@ -49,7 +49,7 @@
 }
 
 .resumen-card{
-    background-color: #059781 ;
+    background-color: #fcfcda ;
     width: auto;
     margin: auto;
     margin-top: 50px;
@@ -57,5 +57,5 @@
     box-shadow: 0px 0px 30px #0006;
     border-radius: 8px;
     display: inline-block;
-    margin: 40px;
+    margin: 44px;
 }

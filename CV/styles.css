@@ -1,9 +1,5 @@
-.img{
-    width: 200px;
-    border-radius: 50%;
-}
-.green-card{
-    background-color: greenyellow;
+.card_img{
+    background: greenyellow;
     text-align: center;
     width: 300px;
     margin: auto;
@@ -11,38 +7,55 @@
     padding: 20px 10px;
     box-shadow: 0px 0px 30px #0006;
     border-radius: 8px;
-    display: inline-block;
+    position: center;
+}
+
+.edad{
+    text-align: center;
+    margin-right: 49%;
+}
+
+
+.img{
+    width: 200px;
+    border-radius: 10%;
+}
+
+.red-card{
+    background-color: rgb(245, 77, 23);
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 10px;
+    box-shadow: 0px 0px 30px #0006;
+    border-radius: 8px;
+    position: left;
 }
 
 .blue-card{
-    background-color: rgb(27, 216, 210);
-    text-align: center;
+    background-color: rgb(23, 208, 245);
     width: 300px;
     margin: auto;
     margin-top: 50px;
     padding: 20px 10px;
     box-shadow: 0px 0px 30px #0006;
     border-radius: 8px;
+    position: right;
 }
 
-.main-card{
-    background-color: rgb(60, 55, 65);
+.series-card, .movie-card{
     text-align: center;
-    width: 1000px;
-    margin: auto;
-    margin-top: 50px;
-    padding: 20px 10px;
-    box-shadow: 0px 0px 30px #0006;
-    border-radius: 8px;
+    margin: 0;
 }
 
-.purple-card{
-    background-color: rgb(193, 51, 255);
-    text-align: center;
-    width: 1000px;
+.resumen-card{
+    background-color: #059781 ;
+    width: auto;
     margin: auto;
     margin-top: 50px;
-    padding: 20px 10px;
+    padding: 20px ;
     box-shadow: 0px 0px 30px #0006;
     border-radius: 8px;
+    display: inline-block;
+    margin: 40px;
 }
